@@ -16,7 +16,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'materialize-sass', '~> 1.0.0.beta'
 gem 'devise'
-gem 'font-awesome-rails'
+gem 'font-awesome-sass', '~> 5.0.9'
 gem 'pg', '0.18.4'
 gem 'simple_form'
 gem 'jquery-rails', '~> 4.3.1'
