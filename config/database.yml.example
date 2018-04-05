@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: utf8
+  username: user
+  password: pwd
+  host: localhost
+
+development:
+  <<: *default
+  database: app-canvas_development
+
+test:
+  <<: *default
+  database: app-canvas_test
+
+production:
+  <<: *default
+  database: app-canvas_production
